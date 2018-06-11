@@ -1,0 +1,30 @@
+.videoItemTitle{
+  color: black;
+  font-size: 17px;
+  font-weight: bold;
+  position: relative;
+  width: 100%;
+  left: 15px;
+}
+
+.videoInfo{
+  color: gray;
+  font-size: 12px;
+  position: relative;
+  top: -5px;
+  left: 20px;
+}
+
+.videoImage{
+  width: 100%;
+  top: 0px;
+  margin-top: 0px;
+  position: relative;
+}
+
+.triangle{
+  width: 15px;
+  height: 15px;
+  left: 15px;
+  position: relative;
+}

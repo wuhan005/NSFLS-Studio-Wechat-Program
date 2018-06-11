@@ -1,0 +1,12 @@
+<template name="videoItem">
+  <navigator url="../index/index?vid={{item.vID}}">
+      <image src='{{item.vImage}}' mode='widthFix' class='videoImage'></image>
+      <view>
+      <view style='height:10px;'></view>
+      <image class="triangle" src='../../images/triangle.png'></image>
+      <text class="videoInfo">{{item.vLong}} #{{item.vType}}</text>
+      </view>
+      <text class="videoItemTitle">{{item.vTitle}}</text>
+      <view style='height:30px;'></view>
+  </navigator>
+</template>

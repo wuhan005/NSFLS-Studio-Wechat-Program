@@ -1,0 +1,28 @@
+<!--首页界面 UI-->
+
+<import src="/template/videoItem/videoItem.wxml" /> <!--引入模板-->
+
+<view class='mainArea'>
+<scroll-view scroll-y="true" bindscrolltolower="scrollLower" style='height:100%;'>
+<!--假的搜索框-->
+<view class="search-bar">  
+    <view class="search-wrap">  
+        <icon type="search" size="16" class="icon-search" />  
+        <input type="text" placeholder="来自异次元的搜索" class="search-input"/>  
+    </view>  
+    <view class="search-cancel" bindtap="pleaseByYourself">搜索</view>  
+</view>  
+
+<template is="videoItem" wx:for="{{videoItemList}}" wx:key="unique" data="{{item}}"/>
+
+<view class="loading" hidden="{{!isLoading}}">正在拼命加载...</view>
+<view class="loading complete" hidden="{{!isLoadingComplete}}">【获得成就】看完电视台所有视频！</view>
+
+<!--底部-->
+
+<view class="footerline_area">
+<image class="logo" mode="aspectFit" src="https://cdn.yourdomainhere.com/nytvlogo3.png"></image>
+</view>
+</scroll-view>
+</view>
+

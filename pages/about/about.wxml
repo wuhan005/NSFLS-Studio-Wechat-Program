@@ -1,0 +1,25 @@
+<!--pages/about/about.wxml-->
+<view class='MainArea'>
+<image class='imageBG'src='https://cdn.yourdomainhere.com/paopaoxcx.jpg'></image>
+
+<view style='justify-content: center;display:flex;margin-top:20%;'>
+<image class='logo' mode='aspectFit'  src='https://cdn.yourdomainhere.com/nytvlogo3.png'></image>
+</view>
+
+<view style='margin-top:60%;'>
+<text class="header">南外校园电视台 微信小程序</text>
+
+<view class='footer'>
+<view class="page-head-line"></view>
+
+<text class="developer">
+开发者：John Wu / 学习她男朋友
+
+南外校园电视台自主服务器提供云计算服务
+
+Write the code, change the world.
+</text>
+<text class="copyright">©2018 南外校园电视台</text>
+</view>
+</view>
+</view>

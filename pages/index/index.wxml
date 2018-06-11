@@ -1,0 +1,34 @@
+<!--index.wxml-->
+<view class="container">
+  <!--视频部分-->
+  <view class="video-part">
+    <video id="myVideo" class="videoBar" 
+    src="{{videoURL}}"
+    binderror="videoErrorCallback" autoplay='ture'>
+    </video>
+  <view>
+</view>
+
+<view class="title-area">
+    <text class="title-header">{{videoTitle}}</text>
+    <text class='title-tips'>#{{videoType}} / {{videoLong}}</text>
+    <text class='title-introduction'>{{videoInfo}}</text>
+</view>
+
+    <view class='page-head-line'></view>
+    <view class="page-area">
+      <text class='page-staff'>{{videoStaff}}</text>
+    </view>
+
+    <!--关于信息-->
+    <view class="followus">
+    <image style="margin:0 auto;width: 39%; height: 110px;" mode="aspectFit" src="https://cdn.yourdomainhere.com/cropped-logo-1.png"></image>
+    </view>
+
+    <!--版权信息-->
+    <view class="text-copyright">
+      <text class='text-copyright'>©2018 南外校园电视台</text>
+    </view>
+    
+</view>
+</view>

@@ -1,0 +1,35 @@
+{
+  "pages": [
+    "pages/MainPage/MainPage",
+    "pages/about/about",
+    "pages/index/index",
+    "pages/logs/logs"
+
+  ],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarBackgroundColor": "#121314",
+    "navigationBarTitleText": "NYTV",
+    "backgroundColor": "#121314"
+  },
+  "tabBar": {
+    "color": "#a9b7b7",
+    "selectedColor":"#000000",
+    "borderStyle": "#a9b7b7",
+    "list": [
+      {
+        "selectedIconPath": "images/home.png",
+        "iconPath": "images/home_gray.png",
+        "pagePath": "pages/MainPage/MainPage",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "images/about.png",
+        "iconPath": "images/about_gray.png",
+        "pagePath": "pages/about/about",
+        "text": "关于"
+      }
+    ]
+  }
+  
+}
